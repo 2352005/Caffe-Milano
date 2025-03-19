@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Caffè Milano</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">Caffè Milano</div>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html" class="active">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Menu Hero -->
+    <section class="page-hero menu-hero">
+        <div class="hero-content">
+            <h1>Our Menu</h1>
+            <p>Traditional Italian flavors with a modern twist</p>
+        </div>
+    </section>
+
+    <!-- Menu Navigation -->
+    <div class="menu-nav">
+        <a href="#pizza" class="menu-nav-item active">Pizza 🍕</a>
+        <a href="#pasta" class="menu-nav-item">Pasta 🍝</a>
+        <a href="#coffee" class="menu-nav-item">Coffee ☕</a>
+        <a href="#dessert" class="menu-nav-item">Dessert 🍰</a>
+    </div>
+
+    <!-- Menu Categories -->
+    <section class="menu-section" id="pizza">
+        <div class="container">
+            <h2>Pizza</h2>
+            <div class="menu-grid">
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Margherita</h3>
+                        <span class="price">$12</span>
+                    </div>
+                    <p>Fresh tomato sauce, mozzarella, basil</p>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Prosciutto</h3>
+                        <span class="price">$16</span>
+                    </div>
+                    <p>Tomato sauce, mozzarella, prosciutto, arugula</p>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Funghi</h3>
+                        <span class="price">$14</span>
+                    </div>
+                    <p>Tomato sauce, mozzarella, wild mushrooms, thyme</p>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Quattro Formaggi</h3>
+                        <span class="price">$15</span>
+                    </div>
+                    <p>Mozzarella, gorgonzola, parmesan, ricotta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="pasta">
+        <div class="container">
+            <h2>Pasta</h2>
+            <div class="menu-grid">
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Spaghetti Carbonara</h3>
+                        <span class="price">$14</span>
+                    </div>
+                    <p>Pancetta, egg, pecorino romano, black pepper</p>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Lasagna</h3>
+                        <span class="price">$16</span>
+                    </div>
+                    <p>Layered pasta, bolognese sauce, béchamel, parmesan</p>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Penne Arrabbiata</h3>
+                        <span class="price">$13</span>
+                    </div>
+                    <p>Spicy tomato sauce, garlic, chili</p>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Fettuccine Alfredo</h3>
+                        <span class="price">$15</span>
+                    </div>
+                    <p>Creamy sauce, parmesan, butter</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="coffee">
+        <div class="container">
+            <h2>Coffee</h2>
+            <div class="menu-grid">
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Espresso</h3>
+                        <span class="price">$3</span>
+                    </div>
+                    <p>Single shot of our signature blend</p>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Cappuccino</h3>
+                        <span class="price">$4</span>
+                    </div>
+                    <p>Espresso with steamed milk and foam</p>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Caffè Latte</h3>
+                        <span class="price">$4.5</span>
+                    </div>
+                    <p>Espresso with lots of steamed milk</p>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Affogato</h3>
+                        <span class="price">$5</span>
+                    </div>
+                    <p>Vanilla gelato "drowned" with espresso</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="dessert">
+        <div class="container">
+            <h2>Dessert</h2>
+            <div class="menu-grid">
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Tiramisu</h3>
+                        <span class="price">$7</span>
+                    </div>
+                    <p>Mascarpone, espresso, ladyfingers, cocoa</p>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Panna Cotta</h3>
+                        <span class="price">$6</span>
+                    </div>
+                    <p>Vanilla cream with berry compote</p>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Cannoli</h3>
+                        <span class="price">$5</span>
+                    </div>
+                    <p>Crisp pastry shells filled with sweet ricotta</p>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-item-header">
+                        <h3>Gelato (2 scoops)</h3>
+                        <span class="price">$6</span>
+                    </div>
+                    <p>Choose from: Vanilla, Chocolate, Pistachio, Stracciatella</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="menu.html" class="active"><i class="fas fa-utensils"></i> Menu</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Caffè Milano</div>
+                <div class="footer-info">
+                    <p>123 Italian Street, Foodville</p>
+                    <p>Open: Mon-Sun, 8am-10pm</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Caffè Milano. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
